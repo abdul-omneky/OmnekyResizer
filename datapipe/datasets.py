@@ -9,9 +9,9 @@ import torchvision as thv
 from torch.utils.data import Dataset
 from albumentations import SmallestMaxSize
 
-from utils import util_sisr
-from utils import util_image
-from utils import util_common
+from resizer_utils import util_sisr
+from resizer_utils import util_image
+from resizer_utils import util_common
 
 from basicsr.data.transforms import augment
 from basicsr.data.realesrgan_dataset import RealESRGANDataset

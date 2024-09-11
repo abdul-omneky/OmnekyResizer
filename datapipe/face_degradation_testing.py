@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 from basicsr.data import degradations as degradations
 
-from utils import util_common
+from resizer_utils import util_common
 
 def face_degradation(im, sf, sig_x, sig_y, theta, nf, qf):
     '''

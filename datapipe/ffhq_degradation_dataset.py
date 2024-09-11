@@ -25,7 +25,7 @@ from torchvision.transforms.functional import (
         normalize
         )
 
-from utils import util_common
+from resizer_utils import util_common
 
 @DATASET_REGISTRY.register()
 class FFHQDegradationDataset(data.Dataset):
